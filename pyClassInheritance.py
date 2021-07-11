@@ -32,3 +32,11 @@ firstborn = Familymembers("John Anyangu","married",67,"Musungus","Man")
 print("***\n")
 print(firstborn.intro())
 print("***\n")
+# Isinstance - checking
+print("\nisinstance\n")
+print(isinstance(fifthborn, Musungus))
+print(isinstance(firstborn, Musungus))
+# issubclass - checking
+print(isinstance(firstborn, Familymembers))
+print("\nissubclass\n")
+print(issubclass(Musungus, Familymembers))
